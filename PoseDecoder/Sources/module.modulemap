@@ -1,0 +1,12 @@
+module PoseDecoder {
+    header "include/PoseDecoder.h"
+    export *
+}
+
+module PoseDecoderCPP {
+    header "include/hpe_model_openpose.h"
+    header "include/openpose_decoder.h"
+    header "include/utils/image_utils.h"
+    export *
+}
+
